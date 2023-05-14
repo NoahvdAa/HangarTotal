@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #18181b;
+    color: #e0e6f0;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.centered {
+    text-align: center;
+}
+
+header {
+    height: calc(100vh - 4rem);
+    padding: 2rem;
+}
+
+.dropzone {
+    margin: auto;
+    width: 25rem;
+    padding: 1.25rem;
+    /* https://kovart.github.io/dashed-border-generator/ */
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='10' ry='10' stroke='%23E0E6F0FF' stroke-width='3' stroke-dasharray='22%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+    border-radius: 10px;
+    display: grid;
+    transition: 1s all;
+}
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.over {
+    background-color: #2a2a2f;
+}
+
+.spinner {
+    margin: auto;
+    display: block;
+}
+
+.pills {
+    display: flex;
+    gap: .25rem;
+    width: max-content;
+    margin: auto;
+}
+
+.pill {
+    width: 4rem;
+    height: .25rem;
+    border-radius: 10px;
+    display: block;
+}
+
+.pill-0 {
+    background: #dc2626;
+}
+
+.severity-0 {
+    color: #dc2626;
+}
+
+.pill-1 {
+    background: #ff544b;
+}
+
+.severity-1 {
+    color: #ff544b;
+}
+
+.pill-2 {
+    background: #fe9636;
+}
+
+.severity-2 {
+    color: #fe9636;
+}
+
+.pill-3 {
+    background: #ffc800;
+}
+
+.severity-3 {
+    color: #ffc800;
+}
+
+.pill-4 {
+    background: #bec077;
+}
+
+.severity-4 {
+    color: #bec077;
+}
+
+.pill-5 {
+    background: #4f4f4f;
+}
+
+.disclaimer {
+    color: #a0a5ab;
+}
+
+.no-margin {
+    margin: 0;
+}
